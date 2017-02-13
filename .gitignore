@@ -1,0 +1,42 @@
+# ignore compiled files
+*.class
+
+# ignore ide generated files
+*.project
+*.settings
+*.classpath
+*.checkstyle
+*.pmd
+*.log
+
+# ignore maven generated files
+target*
+bin/
+buildNumber.properties
+
+# ignore os generated files
+.DS_Store*
+Thumbs.db
+
+#ignore other files
+vpproject*
+
+# ignore ide generated files
+*.iml
+*.project
+.idea*
+.springBeans
+
+# ignore eclipse ide generated files
+.checkstyle
+.classpath
+.settings
+atlassian-ide-plugin.xml
+out
+
+#ignore node modules
+node_modules
+
+#ignore fortify generated files
+*.fpr
+MANIFEST.MF
